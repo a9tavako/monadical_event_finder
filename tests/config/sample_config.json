@@ -1,0 +1,10 @@
+{
+    "embedding_similarity_cutoff": 0.3,
+    "max_time_gap_in_group_minutes": 5,
+    "max_incoming_queue_size": 10000,
+    "max_processing_queue_size": 20,
+    "sliding_window_size": 10,
+    "url": "ws://localhost:8000/stream",
+    "event_file_digit_num": 4,
+    "results_path": "results"
+}
