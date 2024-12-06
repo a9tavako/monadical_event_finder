@@ -1,12 +1,13 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="event_finder",
+    name="monadical_event_finder",
     version="0.1.0",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     install_requires=[
         "joblib",
+        "pandas",
         "pydantic",
         "scikit-learn",
         "sentence_transformers",
