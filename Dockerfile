@@ -6,6 +6,7 @@ COPY setup.py /app/
 COPY src /app/src
 COPY results /app/results
 
-RUN pip install -e .
+RUN pip install --no-cache-dir --upgrade pip \
+    && pip install -e .
 
 CMD ["python", "-m", "event_finder.start"]
